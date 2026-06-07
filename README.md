@@ -1,33 +1,48 @@
-# Website
+# cyberbullying Tweets Classification
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This project is a machine learning-based web application that detects and classifies cyberbullying content in tweets. The system analyzes tweet text and predicts whether it contains cyberbullying behavior, helping promote safer online communication.
+
+## Features
+User-friendly web interface built with Flask
+Cyberbullying tweet detection using Machine Learning
+Text preprocessing and feature extraction
+Real-time tweet classification
+Prediction results displayed instantly
+Secure user authentication and management
+
+## Technologies Used
+Python
+Flask
+Machine Learning
+Scikit-learn
+Pandas
+NumPy
+HTML
+CSS
+Bootstrap
 
 ## Installation
-
-```console
-yarn install
-```
-
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
+Clone the repository:
+git clone https://github.com/your-username/cyberbullying-tweet-classification.git
+Navigate to the project directory:
+cd cyberbullying-tweet-classification
+Install dependencies:
+pip install -r requirements.txt
+Run the Flask application:
+python app.py
+Open your browser and visit:
+http://127.0.0.1:5000
 ## Deployment
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+Push the project to GitHub.
+Create a new Web Service.
+Connect your GitHub repository.
+Configure:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+pip install -r requirements.txt
+
+python app.py
+
+or
+
+gunicorn app:app
